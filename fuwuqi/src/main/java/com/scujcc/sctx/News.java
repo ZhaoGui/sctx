@@ -1,4 +1,4 @@
-package com.scujcc.zhuxianglong;
+package com.scujcc.sctx;
 
 import java.util.UUID;
 
