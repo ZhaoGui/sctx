@@ -1,2 +1,10 @@
-# android、ios科研项目：私厨天下
+# 科研项目：私厨天下(含 Android\ios\服务器 源码)
 ## 小组成员：赵贵、罗盼盼、廖靖宇、张海军
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ditu.png)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/xiangqing.png)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios登录.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios找回密码1.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios找回密码2.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios注册1.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios注册2.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/ZhaoGui/sctx/master/image/ios注册3.jpg)
