@@ -32,6 +32,11 @@ public class News {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	
+	public String getShop() {
+		return shop;
+	}
+	public void setShop(String shop) {
+		this.shop = shop;
+	}
 	
 }

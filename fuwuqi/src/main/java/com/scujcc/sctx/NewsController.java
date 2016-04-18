@@ -28,7 +28,7 @@ public class NewsController {
 	
 	@RequestMapping(value = "/news", method = RequestMethod.POST)
 	public String addNews(@RequestBody News news){
-		Repository.insert(news);
-		return "加入成功！";
+		return Repository.insert(news);
+
 	}
 }
