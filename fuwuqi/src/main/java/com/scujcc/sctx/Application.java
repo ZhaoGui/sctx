@@ -19,8 +19,8 @@ public class Application {
 		config.setDataSourceClassName("com.mysql.jdbc.jdbc2.optional.MysqlDataSource");
 		config.setDataSourceProperty("serverName", "5717423c5929f.gz.cdb.myqcloud.com");
 		config.setDataSourceProperty("port", "4119");
-		config.setDataSourceProperty("user", "aaa");
-		config.setDataSourceProperty("password", "123");
+		config.setDataSourceProperty("user", "root");
+		config.setDataSourceProperty("password", "la676767xi");
 
 		return new HikariDataSource(config);
 	}
