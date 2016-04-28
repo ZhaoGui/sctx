@@ -1,0 +1,124 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/tab1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                </View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:gravity="center_horizontal"
+                        android:id="@+id/loginbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="登录/注册"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:layout_weight="0.2"
+                       android:src="@drawable/login" />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.1">
+                       <Button
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="0.3"
+                           android:text="我的钱包"/>
+                       <Button
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="0.3"
+                           android:text="我的红包"
+                           />
+                       <Button
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="0.3"
+                           android:text="代金券"/>
+                   </LinearLayout>
+                       <Button
+                           android:text="我的评价"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content" />
+                   <Button
+                       android:text="我的收藏"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <Button
+                       android:text="我的地址"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <Button
+                       android:text="帮助与反馈"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <Button
+                       android:text="在线客服"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   <Button
+                       android:text="更多"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content" />
+                   
+               </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TabWidget>
+    </LinearLayout>
+
+</TabHost>
